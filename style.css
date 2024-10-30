@@ -1,0 +1,40 @@
+.body{
+
+}
+
+.navbar{
+    background: #FFEFBA; 
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
+}
+ 
+.title {
+    font-family: 'Press Start 2P', cursive; 
+    font-size: 36px; 
+    color: #ffcc00; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); 
+    letter-spacing: 2px; 
+    text-align: center; 
+}
+
+#puntuacion{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:50PX;
+    margin-left: 5px;
+}
+
+#img1{
+    margin-top: 20px;
+    height: 400px;
+    object-fit: contain;
+    cursor: pointer;
+    
+}
+
+#img1:active{
+    transform: scale(1.02);
+}
+
+#img1:hover{
+    opacity: 0.9;;
+}
