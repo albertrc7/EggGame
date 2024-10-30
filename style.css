@@ -31,6 +31,10 @@
     
 }
 
+.tarjeta{
+    text-align: center;
+}
+
 #img1:active{
     transform: scale(1.02);
 }
