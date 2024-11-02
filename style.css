@@ -1,5 +1,5 @@
-.body{
-
+body{
+    margin: 0px;
 }
 
 .navbar{
@@ -7,7 +7,7 @@
     background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  
     background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
 }
- 
+
 .title {
     font-family: 'Press Start 2P', cursive; 
     font-size: 36px; 
@@ -23,16 +23,50 @@
     margin-left: 5px;
 }
 
-#img1{
-    margin-top: 20px;
-    height: 400px;
-    object-fit: contain;
-    cursor: pointer;
+
+.texto {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.pepe{
+    text-align: center;
     
 }
 
-.tarjeta{
+.imagenes{
+    width: 100%;
+}
+
+.segundo{
+    padding: 10px;
+}
+
+.principal{
+    border: 3px solid;
+    border-radius: 20px;
+    border-color: rgb(180, 178, 178);
+    height: calc(100vh - 70px); /* Ajusta 56px según la altura real del navbar */
+}
+
+.pol{
+    width: 30%;
+}
+
+.card-title{
     text-align: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card{
+    border: 3px solid;
+    border-color: rgb(180, 178, 178);
+    
 }
 
 #img1:active{
@@ -41,4 +75,35 @@
 
 #img1:hover{
     opacity: 0.9;;
+}
+
+#img1{
+    cursor: pointer;
+}
+
+.progress {
+    display: flex;
+    height: 20px;
+    background-color: #e9ecef;
+}
+
+.btn{
+    width: 100%;
+    margin-top: 10px;
+}
+.progress-bar.segment {
+    flex: 1;
+    background-color: #6c757d;
+    opacity: 0.3; 
+    transition: opacity 0.3s, background-color 0.3s;
+    border: 1px solid;
+    
+}
+
+.progress-bar.segment.active {
+    opacity: 1; 
+    background-color: #0d6efd;
+    border: 1px solid;
+    
+    
 }
