@@ -21,6 +21,9 @@ body{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:50PX;
     margin-left: 5px;
+    width: 100%;
+    overflow: auto;
+    text-align: center;
 }
 
 
@@ -79,6 +82,8 @@ body{
 
 #img1{
     cursor: pointer;
+    width: 50%;
+    max-width: 300px;
 }
 
 .progress {
@@ -89,6 +94,7 @@ body{
 
 .btn{
     width: 100%;
+    max-width: 150px;
     margin-top: 10px;
 }
 .progress-bar.segment {
@@ -106,4 +112,14 @@ body{
     border: 1px solid;
     
     
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+}
+
+.bajo {
+    margin-top: auto; 
+    width: 100%; 
 }
