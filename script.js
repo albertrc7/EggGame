@@ -87,7 +87,8 @@ boton2.addEventListener("click", () => {
 
 function incrementarContador() {
     contador++;
-    puntu.innerHTML = contador;
+    contador2 = contador;
+    puntu.innerHTML = conversorDuc();
     actualizarImagen();
 }
 
